@@ -4,7 +4,7 @@ FROM node:carbon
 LABEL MAINTAINER "Subash SN"
 
 WORKDIR /app
-
+test
 COPY . .
 
 RUN chmod +x /app/entrypoint.sh \
